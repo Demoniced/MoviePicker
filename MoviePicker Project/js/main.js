@@ -31,6 +31,7 @@ function getFetch(){
       .catch(err => {
           console.log(`error ${err}`)
       });
+      document.querySelector('.info-bar').style.display = "flex"
     }
 
     
@@ -61,7 +62,7 @@ function getFetch(){
       document.querySelector('img').src = data.poster 
       document.querySelector('h3').innerText = data.plot_overview
       document.querySelector('a').href = data.trailer
-      document.body.style.backgroundImage = "url(" + data.backdrop + ")";
+      // document.body.style.backgroundImage = "url(" + data.backdrop + ")";
     
   })
   .catch(err => {
