@@ -15,16 +15,17 @@
   flex-direction:column;
   align-items:center;
   background-color:grey;
-  border-radius:10%;
-  flex-basis:5%;
-  border:solid black 2px;
-  width:60%;
+  /* border-radius:10%; */
+  flex-basis:3%;
+  border:inset black 5px;
+  width:40%;
+  flex-grow:0;
   
 }
 body{
-  background: rgb(255,207,0);
-  background: linear-gradient(324deg, rgba(255,207,0,1) 8%, rgba(255,212,25,1) 17%, rgba(255,219,65,1) 100%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%); 
-  
+  background-color:black;
+  background:no-repeat;
+  background-size:cover;
   padding:0;
   margin:0;
 }
@@ -44,7 +45,7 @@ button{
 .wrapper{
   justify-content:center;
   flex-direction:row;
-  width:30%;
+  /* width:30%; */
   
  
 }

@@ -39,7 +39,8 @@
                         document.querySelector('.rating').innerText = `Rated ${data.us_rating}`
 
                         document.querySelector('.release-date').innerText = `Release Date : ${data.release_date}`
-
+                        document.body.style.backgroundImage = `url('${data.backdrop}')`;
+                        document.body.style.background = 'cover'
                         document.querySelector('.runtime').innerText = `Runtime: ${data.runtime_minutes} mins`
                   console.log(data)
                 })
